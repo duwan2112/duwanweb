@@ -1,0 +1,3 @@
+export const ACTIVE_IDIOM = "ACTIVE_IDIOM";
+export const ACTIVE_DESPLIEGUE = "ACTIVE_DESPLIEGUE";
+export const ACTIVE_ASIDE = "ACTIVE_ASIDE";

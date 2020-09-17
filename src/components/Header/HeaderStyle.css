@@ -1,0 +1,74 @@
+/* Container Title */
+
+
+
+.container-title {
+    position: absolute;
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    text-align: center;
+    opacity: .9;
+
+}
+
+.active-blur {
+    filter: blur(2px)
+}
+
+.title {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 5rem;
+    font-family: 'Lobster', cursive;
+    padding: 0;
+    margin: 0;
+}
+
+.description {
+    color: white;
+    font-size: 1.8rem;
+    margin: 0;
+    letter-spacing: -1.5px;
+}
+
+/********************************/
+
+
+
+
+/*Media Query*/
+@media (max-width: 960px) {
+    .container-title {
+        width: 60%;
+    }
+
+    .description {
+        font-size: 1.5rem;
+    }
+
+    .title {
+        font-size: 3.5rem;
+
+    }
+
+}
+
+@media (max-width: 720px) {
+    .container-title {
+        width: 80%;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .title {
+        font-size: 3.3rem;
+    }
+
+}

@@ -1,0 +1,168 @@
+.container-contenedor {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(14, 15, 16);
+    z-index: 10;
+    width: 89%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    margin-right: -89%;
+    color: white;
+
+}
+
+.active-despliegue {
+    animation: despliege 1s forwards;
+}
+
+.active-despliegue-doble {
+    animation: despliegue-doble 1s forwards;
+}
+
+
+.active-despliegue-repet {
+    animation: despliegue-doble-repet 1s forwards;
+}
+
+
+.active-despliegue-invertido {
+    animation: despliegue-invertido 1s forwards;
+}
+
+
+.active-repet {
+    margin-right: 0;
+}
+
+
+
+@media (max-width: 960px) {
+    .container-contenedor {
+        width: 100%;
+        margin-right: 100%;
+    }
+
+    .active-despliegue {
+        animation: despliege-m 1s forwards;
+    }
+
+    .active-despliegue-doble {
+        animation: despliegue-doble-m 1s forwards;
+    }
+
+
+    .active-despliegue-repet {
+        animation: despliegue-doble-repet-m 1s forwards;
+    }
+
+
+    .active-despliegue-invertido {
+        animation: despliegue-invertido-m 1s forwards;
+    }
+
+
+    .active-repet {
+        margin-right: 0;
+    }
+}
+
+@keyframes despliege {
+    from {
+        margin-right: -89%;
+
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes despliegue-invertido {
+    from {
+        margin-right: 0;
+    }
+
+    to {
+        margin-right: -89%;
+    }
+}
+
+@keyframes despliegue-doble {
+    from {
+        margin-right: 0;
+    }
+
+    50% {
+        margin-right: -89%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes despliegue-doble-repet {
+    from {
+        margin-right: 0;
+    }
+
+    50% {
+        margin-right: -89%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+
+@keyframes despliege-m {
+    from {
+        margin-right: -100%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes despliegue-invertido-m {
+    from {
+        margin-right: 0;
+    }
+
+    to {
+        margin-right: -100%;
+    }
+}
+
+@keyframes despliegue-doble-m {
+    from {
+        margin-right: 0;
+    }
+
+    50% {
+        margin-right: -100%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}
+
+@keyframes despliegue-doble-repet-m {
+    from {
+        margin-right: 0;
+    }
+
+    50% {
+        margin-right: -100%;
+    }
+
+    to {
+        margin-right: 0;
+    }
+}

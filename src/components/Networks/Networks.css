@@ -1,0 +1,52 @@
+/* Contenedor network */
+.container-networks {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    margin: 10px 20px;
+}
+
+.container-social {
+    padding: 15px 0;
+    color: white;
+}
+
+.net {
+    text-decoration: none;
+    color: white;
+    transition: .5s all;
+}
+
+.container-social:hover,
+.net:hover {
+    color: #800000;
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+.icon-social {
+    font-size: 2.4rem !important;
+}
+
+/************************/
+
+
+/* Media Querys */
+@media (max-width: 960px) {
+    .container-networks {
+        margin: 10px 5px;
+        bottom: 25px;
+        right: 0;
+        top: inherit;
+    }
+
+    .container-social {
+        padding: 5px 0;
+    }
+
+    .icon-social {
+        font-size: 2rem !important;
+    }
+}

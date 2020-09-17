@@ -1,0 +1,36 @@
+/* Container idiom */
+
+
+
+.container-idiom {
+    position: absolute;
+    z-index: 100;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+}
+
+.separator {
+    color: #800000;
+    font-size: 20px;
+}
+
+.button-idiom {
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, .6);
+    cursor: pointer;
+}
+
+.button-idiom:focus {
+    outline: none;
+}
+
+.active {
+    transform: scale(1.2);
+    color: white;
+}
+
+
+
+/********************/
